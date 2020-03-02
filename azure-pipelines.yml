@@ -6,7 +6,7 @@ pool:
 
 variables:
   hugo.version: '0.55.6'
-  blog.path: '.'
+  blog.path: './blog'
 
 steps:
 - script: |

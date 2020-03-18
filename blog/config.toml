@@ -1,4 +1,0 @@
-baseURL = "https://owensymesstorageaccount.z26.web.core.windows.net/"
-languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "hello-friend"

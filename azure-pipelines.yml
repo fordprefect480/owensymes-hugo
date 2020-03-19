@@ -26,7 +26,6 @@ steps:
     source: '$(blog.path)'
     destination: '$(blog.path)/public'
     extendedVersion: true
-    baseURL: 'owensymesstorageaccount.z26.web.core.windows.net'
     
 - task: CopyFiles@2
   displayName: 'Copy Blog'

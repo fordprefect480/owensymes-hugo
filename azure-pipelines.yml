@@ -2,7 +2,7 @@ trigger:
 - master
 
 pool:
-  vmImage: "ubuntu-16.04"
+  vmImage: "windows-latest"
 
 variables:
   hugo.version: '0.65.3'

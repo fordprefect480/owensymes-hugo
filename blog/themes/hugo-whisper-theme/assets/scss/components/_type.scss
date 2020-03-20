@@ -1,0 +1,27 @@
+p {
+font-family: $font-family-base;
+font-size: 1rem;
+line-height: 1.4;
+color: lighten($black, 10%);
+font-weight: 400;
+}
+
+//
+// Lists
+//
+
+.list-unstyled {
+  @include list-unstyled;
+}
+
+// Inline turns list items into inline-block
+.list-inline {
+  @include list-unstyled;
+}
+.list-inline-item {
+  display: inline-block;
+
+  &:not(:last-child) {
+    margin-right: $list-inline-padding;
+  }
+}

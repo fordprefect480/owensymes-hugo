@@ -7,7 +7,12 @@
     }
   }
   h6 {
-    width: 60%;
+    @include media-breakpoint-up(md) {
+      width: 80%;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 60%;
+    }
     margin: 0 auto;
     margin-bottom: 5px
   }

@@ -7836,9 +7836,14 @@ p {
     .page-home .profile img {
       max-width: 300px; }
   .page-home h6 {
-    width: 60%;
     margin: 0 auto;
     margin-bottom: 5px; }
+    @media (min-width: 768px) {
+      .page-home h6 {
+        width: 80%; } }
+    @media (min-width: 992px) {
+      .page-home h6 {
+        width: 60%; } }
   .page-home .content {
     text-align: left; }
   .page-home .title {

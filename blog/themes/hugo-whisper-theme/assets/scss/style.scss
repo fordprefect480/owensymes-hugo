@@ -56,7 +56,12 @@ body {
   width: 1.8rem;
   top: 0.15rem;
   position: relative;
+
+  .fa-stack-overflow {
+    width: 1.5rem;
+  }
 }
+
 // Display breakpoints for DEV
 // body:after {
 //   color: #000000;

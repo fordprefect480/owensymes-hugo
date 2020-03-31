@@ -7897,5 +7897,7 @@ body {
   width: 1.8rem;
   top: 0.15rem;
   position: relative; }
+  .inline-svg .fa-stack-overflow {
+    width: 1.5rem; }
 
 /*# sourceMappingURL=style.css.map */

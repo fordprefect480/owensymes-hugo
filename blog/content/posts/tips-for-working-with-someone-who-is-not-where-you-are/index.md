@@ -1,7 +1,57 @@
 ---
 title: "Tips for Working With Someone Who Is Not Also Where You Are"
-date: 2020-03-02T22:05:35+10:30
-draft: true
+date: 2016-05-27T14:23:08+10:30
+draft: false
+summary: "What I learned working remotely for 12 months"
+tags: ["remote", "work"]
 ---
 
-Expectation\n<Picture of beach>\nAll in all, a bit like this - which I did try but it was terrible with the glare from the sun, couldn't work comfortably, sand everywhere.\nExperience\n· Great for getting stuff done. Get into flow pretty quickly, have to remind myself to take breaks. Almost all work communication done digitally - major context switching doesn't happen as often because people physically not interrupting.\no In saying that, being able to interrupt people is what I missed the most about working in the office.\n· Can be easy to get distracted. Eg. Outlook's \"new mail\" system tray icon, or someone sends you a link. Quickly learnt I had to discipline myself - shut down all notifications except Outlook. Set up email rules to only let squad emails through. Periodically check for others. There are a ton of emails that get sent to the whole office which only concern people actually in the office. I have a rule set up to filter out 'salmon lady', 'fridge clean', 'te papa parking', 'new world little kitchen', 'blood drives' and 'fund raising' (sorry).\n· Limited by tools/infrastructure. Ran into a bunch of things caused by working over VPN, eg. not being able to use the DEVVM, visual studio breaking because Documents folder is a network share. Most of them are work aroundable.\n· Email Group The Clap is endlessly entertaining and a ray of light in my day. Especially since I get no context.\nHow your squad can help\nMeetings\n• Introduce everyone who is not within camera's field of view.\n• Gets weird otherwise\n• Invite remote callers to large meetings first.\n• Otherwise for them it can feel like an ambush. Gets worse because everyone else in the meeting gets to stare at still frames of their face while their connection catches up.\n• Get good mics at both ends of call, or speak near the laptop.\n• Skype adjusts mic vol for whatever source of noise is closest to the mic. So if someones tapping on laptop near to mic, laptop wont pick up someone talking further away. Just the sound of the keys.\n• If you are remote, or frequently chat/pair program with a remote person, get headsets.\n• Allow time for remote callers to respond, or add to discussion.\n• I often found it tricky to add my 2c to discussions. Especially when someone else finishes talking, then I try to say my stuff but in the time it takes for my voice to reach the conversation someone else has already jumped in and now I'm the rude guy cutting them off. Occasionally checking in with the remote caller during the meeting can make this better, or not immediately racing into the next topic for discussion.\nMeetings (cont'd)\n• If remote has shitty Australian internet sub-par upload speeds, allow time for connection to stabilize.\n• I found at standups that my call quality was rubbish for the first ten seconds. So perhaps don't make the remote caller go first straight after calling.\n• If the stream is going weird and you can't make out what they're saying, interrupt and tell them.\nI have no idea if what I'm saying is reaching you ok, or even when it's reaching you, so I will keep on talking unaware.\nBe mindful of timezone differences\n\nKeep them in the loop\n• Encourage discussions/decisions to be had online (video call for major ones).\n• If stuff changes since standup, put it in hipchat.\n• Keep communicating when pressure is on.\n• Stream of communication dries up when pressure is on (which I found out during fedex), try not to do that. Try to keep lines open. Even leaving a screenshare running helps.\n\n-----\n\nTooling & processes\n\n\nI expected remote development to be something like this.\nAnd when I did try to work from the beach, it ended up being something quite similar: uncomfortable, sandy, impractical, and couldn't see a damn thing on the screen.\nWe've adopted agile in a big way at Trade Me. Following Spotify's model, we self-selected into our own squads and, together, decided which methodologies suited us best. This might look like a little bit of scrum, extreme programming and kanban, just whatever works best.\nEvery squad has a 5 minute stand-up meeting every morning, which means I need to be prepared in time for ours. Given Adelaide is 2.5 hours behind Wellington, I need to be ready by 7am for the call. We use Skype for Business for our video calling needs, which admittedly does its best, however my primitive ADSL connection struggles to upload anything beyond 0.8 Mbps, leaving the team staring at basically a series of still frames of my face.\n\n\nmy setup\nteam\nhow we agile\nhttp://www.outlookenterprises.ca/wp-content/uploads/2015/02/tech-beach.jpg\nstraw poll\ntraffic light\npoker\nfigure-it-out chrome extensions for timezones, also windows clock\noutlook timezone management/web timezone meeting planner\nopen the pod bay doors
+![Gidday](/roo.jpg)
+
+Midway through 2015 I picked up my life in NZ and moved to Adelaide, Australia. Fortunately, the fine folk at Trade Me allowed me to continue to work for them remotely and I carried on with our migration to Elasticsearch as a member of the Findability squad.
+
+## Expectation
+All in all, I thought it would be a bit like this:
+
+
+![It was not.](/tech-beach.jpg)
+
+It was not.
+
+It was uncomfortable, sandy, impractical, and couldn't see a damn thing on the screen.
+
+## Experience
+
+* I found it great for getting stuff done. I could get into flow pretty quickly - even having to remind myself to take breaks. Almost all work communication was via asynchronous chat/messaging which I found reduced the amount of context-switching, since people were no longer physically interrupting me.
+* In saying that, being able to interrupt people is what I missed the most about working in the office ¯\\_(ツ)_/¯
+* It can be easy to get distracted. Eg. Outlook's \"new mail\" system tray icon, or someone sends you a link. I quickly learnt that I had to discipline myself  - I shut down all notifications except Slack and Outlook. Email filters were finely-tuned and essential.
+* Limited by tools/infrastructure. I ran into a bunch of things caused by working over VPN, eg. not being able to access certain VMs, or Visual Studio crashing because specific network shares weren't accessible. Fortunately, most of these were work-aroundable.
+
+## How your team can help you
+### Meetings
+* **Introduce everyone who is not within camera's field of view.** Otherwise it gets weird!
+* **Invite remote callers to large meetings first.** I found that joining a call with 100 physical attendees all looking at your face on a TV felt like an ambush. To make matters worse, everyone else in the meeting was stuck staring at still frames of my face while their connection catches up.
+* **Get good mics at both ends of call**. Or speak near the laptop.      
+  * Most video call software adjusts mic volume for whatever source of noise is closest to the mic. So if someones tapping on laptop near to mic, laptop wont pick up someone talking further away.
+  * If you are remote or frequently chat/pair program with a remote person, get headsets.
+* **Allow time for remote callers to respond or add to the discussion.** I often found it tricky to add my 2c to discussions. Trying to say my piece as soon as someone finishes talking often resulted in my voice reaching the room halfway through someone else who had since jumped in. Now I'm the rude guy cutting people off.Occasionally checking in with the remote caller during the meeting can make this better. Or try not immediately racing into the next topic for discussion.
+* **Allow time for the connection to "settle".** If the remote worker has... say... shitty Australian Internet sub-par upload speeds, allow time for connection to stabilize. I found at our daily standups that my call quality was rubbish for the first ten seconds. So perhaps don't make the remote caller go first straight after calling.
+* **If the stream is going weird and you can't make out what they're saying, interrupt and tell them.** I have no idea if what I'm saying is reaching you ok, or even when it's reaching you, so I will keep on talking.
+* **Be mindful of timezone differences.** Usually this is obvious.
+* **Keep them in the loop**
+  * Encourage discussions/decisions to be had online (video call for major ones).
+  * If something has changed since standup, put it in your shared chat. 
+  * *Keep communicating* when the pressure is on. The stream of communication dries up when pressure is on (which I discovered during a hackathon) - try not to do that. Try to keep the lines open. Even leaving a screenshare running helps.
+
+## Tooling & processes
+
+### Timezone Management
+* The [Figure It Out](https://chrome.google.com/webstore/detail/figure-it-out/lialghmkggocekkpjbnoacohodmckfke?hl=en) chrome extension is simple, looks great, and a mere New Tab away.
+* Use Outlook's built-in timezone management.
+* Add more clocks to your Windows system tray.
+
+### Agile
+* Use an online planning poker tool. (2020 EDIT: Slack and Teams have plugins for this :heart_eyes:)
+* Use a strawpoll tool to help with decision making.
+
+HTH!

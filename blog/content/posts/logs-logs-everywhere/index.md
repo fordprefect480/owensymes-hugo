@@ -6,6 +6,9 @@ summaryImage: "images/system.jpg"
 summary: "Limiting audits on Elastic Jobs control databases."
 tags: ["azure", "elasticjobs", "sql", "audit", "policy"]
 ---
+
+![Logs, logs everywhere](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Logs.jpg/1024px-Logs.jpg)
+
 Our team recently migrated a large web application from On-Prem to Azure. This involved a complete redesign of our build and deployment pipeline, including the introduction of Azure Elastic Jobs (currently in preview) to deploy schema changes to our tenant databases.
 
 To run the jobs, we use an Elastic Job Agent which involved hooking it up to a control database which manages the jobs, jobsteps and executions. As soon as we connected an agent to a control database we noticed that the audit logs for that database rapidly grew in size. We're talking ~24 entries *per second*. Which meant our blob storage was growing by 300MB/hr. 

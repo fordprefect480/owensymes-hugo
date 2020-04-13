@@ -29,19 +29,21 @@ It was uncomfortable, sandy, impractical, and couldn't see a damn thing on the s
 
 ## How your team can help you
 ### Meetings
-* **Introduce everyone who is not within camera's field of view.** Otherwise it gets weird!
+* **Introduce anyone who is not within camera's field of view.** Otherwise it gets weird!
 * **Invite remote callers to large meetings first.** I found that joining a call with 100 physical attendees all looking at your face on a TV felt like an ambush. To make matters worse, everyone else in the meeting was stuck staring at still frames of my face while their connection catches up.
 * **Get good mics at both ends of call**. Or speak near the laptop.      
   * Most video call software adjusts mic volume for whatever source of noise is closest to the mic. So if someones tapping on laptop near to mic, laptop wont pick up someone talking further away.
   * If you are remote or frequently chat/pair program with a remote person, get headsets.
-* **Allow time for remote callers to respond or add to the discussion.** I often found it tricky to add my 2c to discussions. Trying to say my piece as soon as someone finishes talking often resulted in my voice reaching the room halfway through someone else who had since jumped in. Now I'm the rude guy cutting people off.Occasionally checking in with the remote caller during the meeting can make this better. Or try not immediately racing into the next topic for discussion.
-* **Allow time for the connection to "settle".** If the remote worker has... say... shitty Australian Internet sub-par upload speeds, allow time for connection to stabilize. I found at our daily standups that my call quality was rubbish for the first ten seconds. So perhaps don't make the remote caller go first straight after calling.
-* **If the stream is going weird and you can't make out what they're saying, interrupt and tell them.** I have no idea if what I'm saying is reaching you ok, or even when it's reaching you, so I will keep on talking.
+* **Allow time for remote callers to respond or add to the discussion.** I often found it tricky to add my 2c to discussions. Trying to say my piece as soon as someone finishes talking often resulted in my voice reaching the room halfway through someone else who had since jumped in. Now I'm the rude guy cutting people off. Occasionally checking in with the remote caller during the meeting can make this better. Or try not immediately racing into the next topic for discussion.
+* **Allow time for the connection to "settle".** If the remote worker has... say... shitty Australian Internet sub-par upload speeds, allow time for the connection to stabilize. I found at our daily standups that my call quality was rubbish for the first ten seconds. So perhaps don't make the remote caller go first straight after calling.
+* **If the stream is getting chunky and you can't make out what they're saying, interrupt and tell them.** I have no idea if what I'm saying is reaching you ok, or even when it's reaching you, so I will keep on talking.
+
+### Other stuff
 * **Be mindful of timezone differences.** Usually this is obvious.
 * **Keep them in the loop**
   * Encourage discussions/decisions to be had online (video call for major ones).
   * If something has changed since standup, put it in your shared chat. 
-  * *Keep communicating* when the pressure is on. The stream of communication dries up when pressure is on (which I discovered during a hackathon) - try not to do that. Try to keep the lines open. Even leaving a screenshare running helps.
+* **Keep communicating* when the pressure is on.** The stream of communication dries up when pressure is on (which I discovered during a hackathon) - try not to do that. Try to keep the lines open. Even leaving a screenshare running helps.
 
 ## Tooling & processes
 

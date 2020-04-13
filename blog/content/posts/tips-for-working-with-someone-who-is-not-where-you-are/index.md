@@ -1,8 +1,8 @@
 ---
-title: "Tips for Working With Someone Who Is Not Also Where You Are"
+title: "Tips for working with someone who is not also where you are"
 date: 2016-05-27T14:23:08+10:30
 draft: false
-summary: "What I learned working remotely for 12 months"
+summary: "What I learned working remotely for 12 months."
 tags: ["remote", "work"]
 ---
 

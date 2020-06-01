@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://owen.nz/"
 languageCode = "en-us"
 title = "Owen Symes"
 theme = "hugo-whisper-theme"
@@ -29,7 +29,7 @@ enableEmoji = true
     weight = 3
 
 [params]
-  google_analytics_id=""
+  google_analytics_id="UA-168148598-1"
   # homepage_button_link = '/docs'
   # homepage_button_text = 'Read The Docs'
   # homepage_intro = 'Full-stack .NET developer'
@@ -41,8 +41,8 @@ enableEmoji = true
     meta_description = "Owen's personal website and blog"
     meta_og_title = "Owen Symes"
     meta_og_type = "website"
-    meta_og_url = "https://owensym.es"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+    meta_og_url = "https://owen.nz"
+    meta_og_image = "og_img.png"
     meta_og_description = "Owen's personal website and blog."
     meta_twitter_card = "summary"
     meta_twitter_site = "@owensymes"

@@ -1,4 +1,4 @@
-baseURL = "https://owen.nz/"
+baseURL = ""
 languageCode = "en-us"
 title = "Owen Symes"
 theme = "hugo-whisper-theme"

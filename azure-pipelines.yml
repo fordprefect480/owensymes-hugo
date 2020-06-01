@@ -25,6 +25,7 @@ steps:
   inputs:
     source: '$(blog.path)'
     destination: '$(blog.path)/public'
+    hugoVersion: '$(hugo.version)'
     extendedVersion: true
 
 - task: AzureCLI@2

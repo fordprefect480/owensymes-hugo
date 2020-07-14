@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>//localhost:1313/posts/nlog-gotchas/</loc>
+    <lastmod>2020-03-02T22:05:56+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2020-03-02T22:05:56+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/posts/setting-up-a-personal-website/</loc>
+    <lastmod>2020-03-02T22:05:47+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/audit/</loc>
+    <lastmod>2020-03-02T22:03:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/azure/</loc>
+    <lastmod>2020-03-02T22:03:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/blazor/</loc>
+    <lastmod>2020-03-02T22:03:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/datetime/</loc>
+    <lastmod>2020-03-02T22:03:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/elasticjobs/</loc>
+    <lastmod>2020-03-02T22:03:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/hugo/</loc>
+    <lastmod>2020-03-02T22:03:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/jamstack/</loc>
+    <lastmod>2020-03-02T22:03:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/posts/logs-logs-everywhere/</loc>
+    <lastmod>2020-03-02T22:03:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/projects/owen.nz/</loc>
+    <lastmod>2020-03-02T22:03:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/policy/</loc>
+    <lastmod>2020-03-02T22:03:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/projects/</loc>
+    <lastmod>2020-03-02T22:03:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/sql/</loc>
+    <lastmod>2020-03-02T22:03:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2020-03-02T22:03:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/projects/timey/</loc>
+    <lastmod>2020-03-02T22:03:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/posts/auth-app-warmup/</loc>
+    <lastmod>2020-03-02T22:03:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/webassembly/</loc>
+    <lastmod>2020-03-02T22:03:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/about/</loc>
+    <lastmod>2019-06-17T23:53:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2019-06-17T23:53:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/remote/</loc>
+    <lastmod>2016-05-27T14:23:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/posts/tips-for-working-with-someone-who-is-not-where-you-are/</loc>
+    <lastmod>2016-05-27T14:23:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/work/</loc>
+    <lastmod>2016-05-27T14:23:08+10:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/categories/</loc>
+  </url>
+  
+</urlset>

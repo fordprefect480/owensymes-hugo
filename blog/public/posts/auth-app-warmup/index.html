@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?port=1313&mindelay=10&v=2" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Warming Up Your Azure Deployment Slot - Owen Symes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="//localhost:1313/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="//localhost:1313/css/style.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="//localhost:1313/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-projects">
+      <a href="//localhost:1313/projects/">
+        <span>Projects</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-posts">
+      <a href="//localhost:1313/posts/">
+        <span>Posts</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://www.owen.nz/"><h1>OS</h1></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://www.owen.nz/"><h1>OS</h1></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="//localhost:1313/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-projects">
+      <a href="//localhost:1313/projects/">
+        <span>Projects</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-posts">
+      <a href="//localhost:1313/posts/">
+        <span>Posts</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Posts</h4>
+  <ul>
+    
+    <li class="">
+      <a href="//localhost:1313/posts/nlog-gotchas/">NLog Gotchas</a>
+    </li>
+    
+    <li class="">
+      <a href="//localhost:1313/posts/setting-up-a-personal-website/">Setting Up a Personal Website</a>
+    </li>
+    
+    <li class="">
+      <a href="//localhost:1313/posts/logs-logs-everywhere/">Logs, logs everywhere</a>
+    </li>
+    
+    <li class="active ">
+      <a href="//localhost:1313/posts/auth-app-warmup/">Warming Up Your Azure Deployment Slot</a>
+    </li>
+    
+    <li class="">
+      <a href="//localhost:1313/posts/tips-for-working-with-someone-who-is-not-where-you-are/">Tips for working with someone who is not also where you are</a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">Warming Up Your Azure Deployment Slot</h1>
+<div class="last-modified">2 March 2020</div>
+<div class="content ">
+  <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Logs.jpg/1024px-Logs.jpg" alt="Logs, logs everywhere"></p>
+<p>Our team recently migrated a large web application from On-Prem to Azure. This involved a complete redesign of our build and deployment pipeline, including the introduction of Azure Elastic Jobs (currently in preview) to deploy schema changes to our tenant databases.</p>
+<p>To run the jobs, we use an Elastic Job Agent which involved hooking it up to a control database which manages the jobs, jobsteps and executions. As soon as we connected an agent to a control database we noticed that the audit logs for that database rapidly grew in size. We&rsquo;re talking ~24 entries <em>per second</em>. Which meant our blob storage was growing by 300MB/hr.</p>
+<p><!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --></p>
+<p>I found just one <a href="https://social.msdn.microsoft.com/Forums/en-US/3b081000-c9f5-4a1a-8b0b-fcb940e787a1/created-elastic-jobs-database-sql-database-audit-logs-exploded-why?forum=ssdsgetstarted">mention of someone else online encountering the same thing</a> and the solution was never revealed :( So after a (lengthy) discussion with Azure Support, we established that:</p>
+<ul>
+<li>the amount of audits reflected the amount of activity occurring on the database</li>
+<li>the Elastic Job Agent was responsible for the activity (and that it was expected)</li>
+<li>it is not a bug</li>
+<li>we can reduce the amount of auditing by filtering out the commands that are audited through the use of a Database Auditing Policy. Use the following PowerShell command to filter out the 3 most common SQL commands performed by the agent:</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">PowerShell Set-AzSqlDatabaseAudit 
+    -ResourceGroupName &lt;Resource Group&gt;
+    -ServerName &lt;SQL Server&gt; 
+    -DatabaseName &lt;Database&gt;
+    -PredicateExpression &#34;application_name = &#39;Microsoft Azure SQL Database elastic jobs - control&#39; AND statement NOT LIKE &#39;%sys.sp_cloud_connection_set_sds%&#39; AND statement NOT LIKE &#39;%with nonterminal_executions as (%&#39; AND statement NOT LIKE &#39;%root_job_execution_id%&#39;&#34; 
+    -BlobStorageTargetState Enabled
+    -StorageAccountResourceId &#34;/subscriptions/&lt;Subscription Id&gt;/resourceGroups/&lt;Resource Group&gt;/providers/Microsoft.Storage/storageAccounts/&lt;Audit Storage Account&gt;
+</code></pre></div><p>Disclaimer: My predicate expression is awful. Given some more time I would&rsquo;ve looked into how to escape special characters a bit better and made this more specific.</p>
+<p>Anyway, I hope this helps someone out.</p>
+
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          <ul>
+            <li><a href="https://www.owen.nz">owen.nz</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="//localhost:1313/js/scripts.js"></script>
+  
+
+  
+
+
+</body>
+
+</html>

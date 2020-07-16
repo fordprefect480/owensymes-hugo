@@ -63,6 +63,26 @@ body {
   }
 }
 
+
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #1de9b6;
+  border-radius: 10px
+}
+
+.badge:empty {
+  display: none
+}
+
 // Display breakpoints for DEV
 // body:after {
 //   color: #000000;

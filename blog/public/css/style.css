@@ -7290,10 +7290,15 @@ p {
   .page .wrapper {
     flex: 1; }
   .page .title {
-    margin-bottom: 10px; }
+    margin-bottom: 5px; }
   .page .last-modified {
     color: lightgray;
-    margin-bottom: 25px; }
+    margin-bottom: 5px; }
+  .page .tag-list {
+    margin-bottom: 20px; }
+    .page .tag-list li {
+      display: inline;
+      list-style: none; }
 
 .summary h2 {
   margin-bottom: 0px; }
@@ -7882,6 +7887,9 @@ p {
         width: 60%; } }
   .page-home ul {
     list-style: none; }
+  .page-home .sub-footer ul {
+    width: 100%;
+    text-align: right; }
   .page-home .terminal {
     border-radius: 3px;
     margin: 0 auto;
@@ -7910,5 +7918,22 @@ body {
   position: relative; }
   .inline-svg .fa-stack-overflow {
     width: 1.5rem; }
+
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #1de9b6;
+  border-radius: 10px; }
+
+.badge:empty {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

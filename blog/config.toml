@@ -28,7 +28,11 @@ enableEmoji = true
     url = "/posts/"
     weight = 3
 
+[taxonomies]
+    tag = "tags"
+
 [params]
+  mainSections = ["posts", "projects"] 
   google_analytics_id="UA-168148598-1"
   # homepage_button_link = '/docs'
   # homepage_button_text = 'Read The Docs'

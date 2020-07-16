@@ -2,120 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Owen Symes</title>
-    <link>//localhost:1313/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Owen Symes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Mar 2020 22:03:08 +1030</lastBuildDate>
     
-	<atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>audit</title>
-      <link>//localhost:1313/tags/audit/</link>
+      <link>/tags/audit/</link>
       <pubDate>Mon, 02 Mar 2020 22:03:08 +1030</pubDate>
       
-      <guid>//localhost:1313/tags/audit/</guid>
+      <guid>/tags/audit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>azure</title>
-      <link>//localhost:1313/tags/azure/</link>
+      <link>/tags/azure/</link>
       <pubDate>Mon, 02 Mar 2020 22:03:08 +1030</pubDate>
       
-      <guid>//localhost:1313/tags/azure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blazor</title>
-      <link>//localhost:1313/tags/blazor/</link>
-      <pubDate>Mon, 02 Mar 2020 22:03:08 +1030</pubDate>
-      
-      <guid>//localhost:1313/tags/blazor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>datetime</title>
-      <link>//localhost:1313/tags/datetime/</link>
-      <pubDate>Mon, 02 Mar 2020 22:03:08 +1030</pubDate>
-      
-      <guid>//localhost:1313/tags/datetime/</guid>
+      <guid>/tags/azure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>elasticjobs</title>
-      <link>//localhost:1313/tags/elasticjobs/</link>
+      <link>/tags/elasticjobs/</link>
       <pubDate>Mon, 02 Mar 2020 22:03:08 +1030</pubDate>
       
-      <guid>//localhost:1313/tags/elasticjobs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>//localhost:1313/tags/hugo/</link>
-      <pubDate>Mon, 02 Mar 2020 22:03:08 +1030</pubDate>
-      
-      <guid>//localhost:1313/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>jamstack</title>
-      <link>//localhost:1313/tags/jamstack/</link>
-      <pubDate>Mon, 02 Mar 2020 22:03:08 +1030</pubDate>
-      
-      <guid>//localhost:1313/tags/jamstack/</guid>
+      <guid>/tags/elasticjobs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>policy</title>
-      <link>//localhost:1313/tags/policy/</link>
+      <link>/tags/policy/</link>
       <pubDate>Mon, 02 Mar 2020 22:03:08 +1030</pubDate>
       
-      <guid>//localhost:1313/tags/policy/</guid>
+      <guid>/tags/policy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sql</title>
-      <link>//localhost:1313/tags/sql/</link>
+      <link>/tags/sql/</link>
       <pubDate>Mon, 02 Mar 2020 22:03:08 +1030</pubDate>
       
-      <guid>//localhost:1313/tags/sql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>webassembly</title>
-      <link>//localhost:1313/tags/webassembly/</link>
-      <pubDate>Mon, 02 Mar 2020 22:03:08 +1030</pubDate>
-      
-      <guid>//localhost:1313/tags/webassembly/</guid>
+      <guid>/tags/sql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>remote</title>
-      <link>//localhost:1313/tags/remote/</link>
+      <link>/tags/remote/</link>
       <pubDate>Fri, 27 May 2016 14:23:08 +1030</pubDate>
       
-      <guid>//localhost:1313/tags/remote/</guid>
+      <guid>/tags/remote/</guid>
       <description></description>
     </item>
     
     <item>
       <title>work</title>
-      <link>//localhost:1313/tags/work/</link>
+      <link>/tags/work/</link>
       <pubDate>Fri, 27 May 2016 14:23:08 +1030</pubDate>
       
-      <guid>//localhost:1313/tags/work/</guid>
+      <guid>/tags/work/</guid>
       <description></description>
     </item>
     

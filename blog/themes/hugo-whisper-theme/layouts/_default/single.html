@@ -7,6 +7,9 @@
 <div class="last-modified"> 
   {{- .Date.Format "2 January 2006" -}}
 </div>
+<div class="tag-list">
+  {{ partial "tags.html" .}}
+</div>
 <div class="content {{if .Site.Params.enable_anchor_link}}{{ "anchor-link-enabled" }}{{ end }}">
   {{.Content}}
 </div>

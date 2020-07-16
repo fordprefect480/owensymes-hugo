@@ -2,84 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Owen Symes</title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on Owen Symes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Jun 2019 23:53:00 +0100</lastBuildDate>
     
-	<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>NLog Gotchas</title>
-      <link>//localhost:1313/posts/nlog-gotchas/</link>
-      <pubDate>Mon, 02 Mar 2020 22:05:56 +1030</pubDate>
-      
-      <guid>//localhost:1313/posts/nlog-gotchas/</guid>
-      <description>\t\ta. noisy micorosft logging\n\t\tb. async true, async false\napp insights limit</description>
-    </item>
-    
-    <item>
-      <title>Setting Up a Personal Website</title>
-      <link>//localhost:1313/posts/setting-up-a-personal-website/</link>
-      <pubDate>Mon, 02 Mar 2020 22:05:47 +1030</pubDate>
-      
-      <guid>//localhost:1313/posts/setting-up-a-personal-website/</guid>
-      <description>bloggin frameowkrs\nwhat i wanted\n\n\ntrialled frameworksks\norchard\nraccoon and others no longer in active dev\nblogengine.net\nblogifier\n* free themes much better, more 2019\n* Material, Bridge, Moments, Spot, Wide\n\n\n\npersonal site,\n wanting to use blog as subsite, cant figure out how to do that other than url rewriting in azure.</description>
-    </item>
     
     <item>
       <title>Logs, logs everywhere</title>
-      <link>//localhost:1313/posts/logs-logs-everywhere/</link>
+      <link>/posts/logs-logs-everywhere/</link>
       <pubDate>Mon, 02 Mar 2020 22:03:08 +1030</pubDate>
       
-      <guid>//localhost:1313/posts/logs-logs-everywhere/</guid>
+      <guid>/posts/logs-logs-everywhere/</guid>
       <description>Limiting audits on Elastic Jobs control databases.</description>
-    </item>
-    
-    <item>
-      <title>owen.nz</title>
-      <link>//localhost:1313/projects/owen.nz/</link>
-      <pubDate>Mon, 02 Mar 2020 22:03:08 +1030</pubDate>
-      
-      <guid>//localhost:1313/projects/owen.nz/</guid>
-      <description>This site. First foray into JAMstack sites using hugo.</description>
-    </item>
-    
-    <item>
-      <title>Timey</title>
-      <link>//localhost:1313/projects/timey/</link>
-      <pubDate>Mon, 02 Mar 2020 22:03:08 +1030</pubDate>
-      
-      <guid>//localhost:1313/projects/timey/</guid>
-      <description>Using Blazor WebAssembly to convert datetimes using as few clicks as possible.</description>
-    </item>
-    
-    <item>
-      <title>Warming Up Your Azure Deployment Slot</title>
-      <link>//localhost:1313/posts/auth-app-warmup/</link>
-      <pubDate>Mon, 02 Mar 2020 22:03:08 +1030</pubDate>
-      
-      <guid>//localhost:1313/posts/auth-app-warmup/</guid>
-      <description>Limiting audits on Elastic Jobs control databases.</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>//localhost:1313/about/</link>
-      <pubDate>Mon, 17 Jun 2019 23:53:00 +0100</pubDate>
-      
-      <guid>//localhost:1313/about/</guid>
-      <description>Here the important information about yourself should go.</description>
     </item>
     
     <item>
       <title>Tips for working with someone who is not also where you are</title>
-      <link>//localhost:1313/posts/tips-for-working-with-someone-who-is-not-where-you-are/</link>
+      <link>/posts/tips-for-working-with-someone-who-is-not-where-you-are/</link>
       <pubDate>Fri, 27 May 2016 14:23:08 +1030</pubDate>
       
-      <guid>//localhost:1313/posts/tips-for-working-with-someone-who-is-not-where-you-are/</guid>
+      <guid>/posts/tips-for-working-with-someone-who-is-not-where-you-are/</guid>
       <description>What I learned working remotely for 12 months.</description>
     </item>
     

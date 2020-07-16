@@ -14,4 +14,4 @@ My aim is to craft readable, maintainable code and make life easier for users. E
 
 - 💼 Working as a Senior Developer at [Xeppo](https://www.xeppo.com.au).
 - 🎓 Currently learning about Blazor WebAssembly and constantly experimenting with various aspects of DevOps.
-- ✍ Trying out blogging as something new! [How's my driving?](/posts)
+- 📝 Trying out blogging as something new! [How's my driving?](/posts)

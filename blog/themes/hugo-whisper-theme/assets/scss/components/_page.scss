@@ -6,12 +6,20 @@
     flex: 1;
   }
   .title {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   .last-modified {
     color: lightgray;
-    margin-bottom: 25px;
+    margin-bottom:5px;
+  }  
+  .tag-list {
+    margin-bottom: 20px;
+    
+    li {
+      display: inline;
+      list-style: none;
   }
+}
 }
 .summary  {
   h2 {

@@ -15,3 +15,11 @@ My aim is to craft readable, maintainable code and make life easier for users. E
 - 💼 Working as a Senior Developer at [Xeppo](https://www.xeppo.com.au).
 - 🎓 Currently learning about Blazor WebAssembly and constantly experimenting with various aspects of DevOps.
 - 📝 Trying out blogging as something new! [How's my driving?](/posts)
+
+###### Lara Makes
+![Lara Makes](laramakes.png)
+My wife makes many things and you can buy these things on [Etsy](https://www.etsy.com/au/shop/LaraMakesAU). She also has a [blog](https://laramakes.com/) where you can find [free cross-stitch patterns](https://laramakes.com/category/free-patterns/).
+
+###### PANDA
+![PANDA](panda.jpg)
+I'm a PANDA Community Champion and love the work that they do. If you are an expecting or new parent and having a rough time right now, [get in touch](https://www.panda.org.au/info-support/pandas-national-perinatal-anxiety-depression-helpline) with them.

@@ -3,7 +3,7 @@ title: "Blog"
 date: 2020-03-02T22:03:08+10:30
 draft: false
 summaryImage: "images/system.jpg"
-summary: "This site! My first foray into JAMstack sites using hugo."
+summary: "My first foray into JAMstack sites using hugo."
 tags: ["hugo", "jamstack"]
 ---
 

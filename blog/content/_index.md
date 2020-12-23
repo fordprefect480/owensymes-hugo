@@ -15,3 +15,15 @@ My aim is to craft readable, maintainable code and make life easier for users. E
 - 💼 Working as a Senior Developer at [Xeppo](https://www.xeppo.com.au).
 - 🎓 Currently learning about Blazor WebAssembly and constantly experimenting with various aspects of DevOps.
 - 📝 Trying out blogging as something new! [How's my driving?](/posts)
+
+###### PANDA
+
+[![PANDA](https://www.owen.nz/panda.png)](https://www.panda.org.au)
+
+I volunteer as a Community Champion for Perinatal Anxiety & Depression Australia ([PANDA](https://www.panda.org.au)). To see whether what you may be experiencing or observing in a loved one could be a reason to seek help try out their short [mental health checklist](https://www.panda.org.au/info-support/checklists).
+
+###### Carnelian Craft
+
+[![Carnelian Craft](https://www.owen.nz/cclogo.png)](https://www.carneliancraft.com.au)
+
+My wife runs her own business selling handmade crafts, junk journals, materials/kits, and running workshops. You can browse her wares on [Etsy](https://www.etsy.com/au/shop/CarnelianCraft) and keep up with her on [Instagram](https://www.instagram.com/carnelian_craft/) or her [blog](https://www.carneliancraft.com.au/).

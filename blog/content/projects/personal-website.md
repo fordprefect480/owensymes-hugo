@@ -1,5 +1,5 @@
 ---
-title: "Blog (owen.nz)"
+title: "Blog"
 date: 2020-03-02T22:03:08+10:30
 draft: false
 summaryImage: "images/system.jpg"
@@ -9,6 +9,12 @@ tags: ["hugo", "jamstack"]
 
 ![Azure Static Web Apps CI/CD](https://github.com/fordprefect480/owensymes-hugo/workflows/Azure%20Static%20Web%20Apps%20CI/CD/badge.svg)
 
+**Site:** https://www.owen.nz
+
+## Summary
+
 An experiment to learn more about JAMstack and static site generation in general.
 
 Will use as a launch point for my other pet projects.
+
+![Blog](https://www.owen.nz/blog_screenshot.png)

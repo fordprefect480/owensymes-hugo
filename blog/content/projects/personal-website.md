@@ -15,6 +15,8 @@ tags: ["hugo", "jamstack"]
 
 An experiment to learn more about JAMstack and static site generation in general.
 
+Have set up Continuous Delivery such that a GitHub Action is triggered on push, compiling the site and publishing to an Azure Static Web App.
+
 Will use as a launch point for my other pet projects.
 
 ![Blog](https://www.owen.nz/blog_screenshot.png)

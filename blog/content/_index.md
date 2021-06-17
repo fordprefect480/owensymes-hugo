@@ -27,3 +27,11 @@ I volunteer as a Community Champion for Perinatal Anxiety & Depression Australia
 [![Carnelian Craft](https://www.owen.nz/cclogo.png)](https://www.carneliancraft.com.au)
 
 My wife runs her own business selling handmade crafts, junk journals, materials/kits, and running workshops. You can browse her wares on [Etsy](https://www.etsy.com/au/shop/CarnelianCraft) and keep up with her on [Instagram](https://www.instagram.com/carnelian_craft/) or her [blog](https://www.carneliancraft.com.au/).
+
+###### Seaford Community Garden
+
+[![Seaford Community Garden](https://www.owen.nz/scglogo.png)](https://www.seafordcommunitygarden.com)
+
+I was asked to spin up a website for a team who want to establish a community garden in my neighbourhood. It serves as an information hub and a place to add your support to a petition. 
+
+If you live near Seaford, South Australia then you should jump on and [sign the petition](https://www.seafordcommunitygarden.com)! Also follow their socials: [Facebook](https://www.facebook.com/seafordcg), [Instagram](https://www.instagram.com/seafordcg). 

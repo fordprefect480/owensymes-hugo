@@ -30,7 +30,7 @@ steps:
 
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'Pay-As-You-Go (0965bb35-0dbf-4993-9dcb-5d75ccd0ca44)'
+    azureSubscription: 'Pay-As-You-Go(0965bb35-0dbf-4993-9dcb-5d75ccd0ca44)'
     scriptType: 'ps'
     scriptLocation: 'inlineScript'
     inlineScript: 'az cdn endpoint purge  -g OwenSymes-owensym.es-Production -n owensymesstatic --profile-name owensymes-cdn --content-paths "/*"'

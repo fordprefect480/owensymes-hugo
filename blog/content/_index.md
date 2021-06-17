@@ -8,7 +8,7 @@ showInMenu: true
 
 ###### About Me
 Hi! I'm Owen.
-I'm a reliable, professional developer with over 10 years experience developing .NET web applications in Australia, Malaysia and NZ. 
+I'm a reliable, professional developer with over 15 years experience developing .NET web applications in Australia, Malaysia and NZ. 
 
 My aim is to craft readable, maintainable code and make life easier for users. Everything I do is driven by a love of learning and sharing knowledge with others.
 

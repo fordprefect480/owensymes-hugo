@@ -32,6 +32,6 @@ My wife runs her own business selling handmade crafts, junk journals, materials/
 
 [![Seaford Community Garden](https://www.owen.nz/scglogo.png)](https://www.seafordcommunitygarden.com)
 
-I was asked to spin up a website for a team who want to establish a community garden in my neighbourhood. It serves as an information hub and a place to add your support to a petition. 
+I was asked to spin up a website for a team who want to establish a community garden in my neighbourhood. The site serves as an information hub and a place to collect digital signatures for a petition. 
 
 If you live near Seaford, South Australia then you should jump on and [sign the petition](https://www.seafordcommunitygarden.com)! Also follow their socials: [Facebook](https://www.facebook.com/seafordcg), [Instagram](https://www.instagram.com/seafordcg). 

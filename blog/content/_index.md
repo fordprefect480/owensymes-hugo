@@ -12,8 +12,8 @@ I'm a dependable, professional developer with over 15 years experience developin
 
 My aim is to craft readable, maintainable code and make life easier for users. Everything I do is driven by a love of learning and sharing knowledge with others.
 
-- 💼 Working as a Senior Developer at [Xeppo](https://www.xeppo.com.au).
-- 🎓 Currently learning about Blazor WebAssembly and constantly experimenting with various aspects of DevOps.
+- 💼 Working as a Senior Developer at [The Law Store](https://thelawstore.com.au/).
+- 🎓 Currently picking up React and constantly experimenting with various aspects of DevOps.
 - 📝 Trying out blogging as something new! [How's my driving?](/posts)
 
 ###### PANDA
@@ -32,6 +32,6 @@ My wife runs her own business selling handmade crafts, junk journals, materials/
 
 [![Seaford Community Garden](https://www.owen.nz/scglogo.png)](https://www.seafordcommunitygarden.com)
 
-I was asked to spin up a website for a team who want to establish a community garden in my neighbourhood. The site serves as an information hub and a place to collect digital signatures for a petition. 
+I was asked to spin up a website for a team who want to establish a community garden in my neighbourhood. The site serves as an information hub and a place for members to sign-up.
 
-If you live near Seaford, South Australia then you should jump on and [sign the petition](https://www.seafordcommunitygarden.com)! Also follow their socials: [Facebook](https://www.facebook.com/seafordcg), [Instagram](https://www.instagram.com/seafordcg). 
+If you live near Seaford, South Australia and you'd like to be involved then you should jump on and [contact us](https://www.seafordcommunitygarden.com)! Also follow their socials: [Facebook](https://www.facebook.com/seafordcg), [Instagram](https://www.instagram.com/seafordcg). 

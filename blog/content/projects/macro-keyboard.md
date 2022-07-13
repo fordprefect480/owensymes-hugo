@@ -9,7 +9,7 @@ tags: ["arduino", "leonardo", "electronics", "3dprinting"]
 
 ## Summary
 
-_Photo of finished product coming soon_
+![Keyboard](https://pbs.twimg.com/media/FUnJ9DUUYAENBny?format=jpg)
 
 I saw this [great tutorial online](https://www.partsnotincluded.com/diy-stream-deck-mini-macro-keyboard/) with simple instructions on how to build your own macro keyboard. Best part was that the electronics/soldering side of things was so simple that it served as a great primer into the world of electronics and everything that underpins the code I write every day. 
 

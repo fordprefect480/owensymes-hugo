@@ -8,12 +8,12 @@ showInMenu: true
 
 ###### About Me
 Hi! I'm Owen.
-I'm a dependable, professional developer with over 15 years experience developing .NET web applications in Australia, Malaysia and NZ. 
+I’m a reliable, professional, full-stack developer with over 20 years experience crafting .NET web applications in Australia, Malaysia, and New Zealand. 
 
 My aim is to craft readable, maintainable code and make life easier for users. Everything I do is driven by a love of learning and sharing knowledge with others.
 
 - 💼 Working as a Senior Developer at [The Law Store](https://thelawstore.com.au/).
-- 🎓 Currently picking up React and constantly experimenting with various aspects of DevOps.
+- 🎓 Currently experimenting with [.NET Aspire 🗻](https://github.com/dotnet/aspire) and [Bicep 🦾](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview).
 - 📝 Trying out blogging as something new! [How's my driving?](/posts)
 
 ###### PANDA
@@ -22,11 +22,11 @@ My aim is to craft readable, maintainable code and make life easier for users. E
 
 I volunteer as a Community Champion for Perinatal Anxiety & Depression Australia ([PANDA](https://www.panda.org.au)). To see whether what you may be experiencing or observing in a loved one could be a reason to seek help try out their short [mental health checklist](https://www.panda.org.au/info-support/checklists).
 
-###### Carnelian Craft
+###### Cece Baby Co.
 
-[![Carnelian Craft](https://www.owen.nz/cclogo.png)](https://www.carneliancraft.com.au)
+[![Cece Baby Co.](https://www.owen.nz/cece.jpg)](https://www.cecebabyco.com.au)
 
-My wife runs her own business selling handmade crafts, junk journals, materials/kits, and running workshops. You can browse her wares on [Etsy](https://www.etsy.com/au/shop/CarnelianCraft) and keep up with her on [Instagram](https://www.instagram.com/carnelian_craft/) or her [blog](https://www.carneliancraft.com.au/).
+My wife runs her own baby boutique business selling baby bibs, toys and accessories. You can browse her wares at [https://www.cecebabyco.com.au](https://www.cecebabyco.com.au) and keep up with her on [Instagram](https://www.instagram.com/cece_baby_co/).
 
 ###### Seaford Community Garden
 
